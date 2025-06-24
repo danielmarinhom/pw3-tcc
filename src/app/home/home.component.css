@@ -1,0 +1,42 @@
+.home-container {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.equipe {
+  color: #007BFF;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.equipe:hover {
+  transform: scale(1.1);
+  color: #0056b3;
+}
+
+.imagens-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  margin-top: 30px;
+}
+
+.imagem-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-projeto {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.legenda {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}

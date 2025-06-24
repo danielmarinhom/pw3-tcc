@@ -1,0 +1,18 @@
+<div class="chat-container">
+  <div class="mensagens">
+    <div *ngFor="let msg of mensagens" [ngClass]="{'usuario': msg.autor === 'usuario', 'bot': msg.autor === 'bot'}" class="mensagem">
+      {{ msg.texto }}
+    </div>
+  </div>
+
+  <form (ngSubmit)="enviarMensagem()" class="input-area">
+    <input
+      type="text"
+      placeholder="Digite sua mensagem..."
+      [(ngModel)]="textoInput"
+      name="textoInput"
+      autocomplete="off"
+    />
+    <button type="submit">Enviar</button>
+  </form>
+</div>

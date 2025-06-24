@@ -1,0 +1,47 @@
+.sobre-nos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  background: linear-gradient(to bottom, #f4f4f4, #ffffff);
+}
+
+.sobre-nos-container h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  color: #34495e;
+}
+
+.equipe {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+  font-size: 1.5em;
+}
+
+.equipe li {
+  margin: 10px 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.equipe li:hover {
+  transform: scale(1.05);
+  color: #2980b9;
+}
+
+.link-contato {
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #2980b9;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.link-contato:hover {
+  background-color: #1c5980;
+}
